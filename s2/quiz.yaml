@@ -1,5 +1,5 @@
-- q: Is the General Purpose (SSD) the default storage option for EBS? (t/f)
-  a: t
+- q: Is the General Purpose (SSD) the default storage option for EBS? (true/false)
+  a: true
 - q: Which EC2 instance type is used for small and medium sized databases processing enterprise applications?
   a: General Purpose
 - q: Which EC2 instance type is a high performance front-end fleets, web servers batch processing, distributed analytics, science and engineering applications, etc?
@@ -11,7 +11,37 @@
 - q: Which EC2 instance type is for NoSQL dbs like Cassandra and MongoDB or Massively Parallel Processing data warehousing, MapReduce and Hadoop, etc?
   a: Storage Optimized
 - q: What EC2 instance type is governed by CPU credits?
-  a: T2 Burtable Performance
+  a: T2 Burstable Performance
 - q: Which EC2 storage option is physically attached to the host server?
   a: Instance Store
-- q:     
+- q: EBS volumes attached at instance launch are what when the instance is terminated?
+  a: deleted
+- q: EBS volumes attached to a running instance are what when the instance is terminated?
+  a: not deleted
+- q: Instance volumes can be attached to another EC2 instance (true/false)
+  a: false
+- q: Which EBS storage option is default?
+  a: General Purpose
+- q: Which EBS storage type is the lowest cost per gigabyte?
+  a: Magnetic
+- q: Which EBS storage option is consistent and low-latency performant for I/O applications such as large relational databases and NoSQL databases?
+  a: Provisioned IOPS
+- q: What is the EBS storage type that is a point in time backup loaded to s3?
+  a: Snapshot
+- q: What is the EBS storage type that uses AWS Key Management Service to add security?
+  a: Encryption
+- q: What provides the information required to launch an EC2 instance through templates (including launch permissions) ?
+  a: Amazon Machine Images
+- q: You can put AMIs on the Amazon Marketplace to sell? (true/false)
+  a: true
+- q: What service uses single root I/O virtualization to increase performance of multiple EC2 instances?
+  a: Cluster Networking
+- q: Placement groups for Cluster Network can span multiple Availability Zones (true/false)
+  a: false
+- q: What year was VPC introduced?
+  a: 2009
+- q: EC2 classic is not available for new accounts (true/false)
+  a: true
+- q: EC2 classic instances run on shared hardware only (true/false)
+  a: true
+- q:  
