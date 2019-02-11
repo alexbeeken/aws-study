@@ -44,4 +44,8 @@
   a: true
 - q: EC2 classic instances run on shared hardware only (true/false)
   a: true
+- q: You can use a keypair file to ssh or use sftp with an EC2 instance using a key file logon type. (true/false)
+  a: true
+- q: You can connect to windows server instances on a mac or windows computer (true/false)
+  a: true
 - q:  
