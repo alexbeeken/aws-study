@@ -48,4 +48,42 @@
   a: true
 - q: You can connect to windows server instances on a mac or windows computer (true/false)
   a: true
+- q: By default manually added EC2 storage volumes are not deleted on termination (true/false)
+  a: true
+- q: By default automatically added EC2 storage volumes are deleted on termination (true/false)
+  a: true 
+- q: What command lists the current block volumes on a linux ami?
+  a: lsblk
+- q: The command sudo mkfs -t ext4 /dev/xvdb creates a file system (true/false)
+  a: true
+- q: The command sudo file -s /dev/xvdb checks what kind of systems attached to the instance?
+  a: file system  
+- q: what is the base command for mounting an ebs volume to a directory? (without arguments)
+  a: sudo mount  
+- q: The command sudo file -s /dev/xvdb will not tell you the uuid of a filesystem (true/false)
+  a: false
+- q: What command do you use to test if a volume is mounted correctly?
+  a: sudo mount -a
+- q: What file do you edit to configure filesystem mounts and remount them on startup? (full path from root directory)
+  a: /etc/fstab  
+- q: What does EFS stand for?
+  a: Elastic File Service
+- q: What does NAS stand for? (in the context of EFS)
+  a: Network Attached Storage
+- q: Can EFS be accessed by multiple EC2 instances at the same time? (true/false)
+  a: true 
+- q: EFS does not support Multi AZ replication (true/false)
+  a: false
+- q: EFS does not support cross region capability (true/false)
+  a: true
+- q: EFS is more complicated to provision than s3 and EBS (true/false)
+  a: true
+- q: In order to access an EFS volume we need a mount target located within our VPC using a...
+  a: VPC NFS endpoint
+- q: You can use a linux mount command to mount an EFS using its DNS name or IP Address(not recommended) (true/false)
+  a: true
+- q: The NFS client comes preinstalled on the linux AMI (true/false)
+  a: true
+- q: You cannot use IAM permissions with EFS actions (true/false)
+  a: false
 - q:  
