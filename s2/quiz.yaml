@@ -86,4 +86,50 @@
   a: true
 - q: You cannot use IAM permissions with EFS actions (true/false)
   a: false
+- q: You cannot create a mount target unless there is a subnet inside the availability zone (true/false)
+  a: true
+- q: S3 index updates after data changes means there is some delay among availability zones. But it works out because it is... (specific term)
+  a: eventually consistent
+- q: S3 updates are not read after write/delete consistent but they are
+  a: eventually consistent
+- q: What happens immediately after an object is immediately uploaded to S3?
+  a: success response
+- q: What happens after a success response is returned after uploading a file to s3?
+  a: synchronization
+- q: What are the security rules that only apply at the bucket level?
+  a: bucket policy
+- q: Key prefix can affect the performance of an S3 bucket (true/false)
+  a: true
+- q: S3 partitions are based on what?
+  a: key prefix
+- q: which folder naming schema is faster? folder0 or 0folder?
+  a: 0folder
+- q: The Standard - One Zone IA storage class on S3 is cheaper than the Standard storage class
+  a: true
+- q: The Standard infrequent access S3 storage option is cheaper for people accessing their data more often than Standard storage class (true/false)
+  a: false
+- q: Which S3 storage class is being deprecated by AWS? (that was mentioned in the course)
+  a: Reduced Redundancy Storage
+- q: What term is used to describe S3's ability to delete/archive old files?
+  a: LifeCycle Management
+- q: You can restore archived files from Glacier back to S3 (true/false)
+  a: true
+- q: S3 can version buckets and get previous versions of objects. (true/false)
+  a: true
+- q: S3 Cross Region Replication is a new feature that copies data between different regions (true/false)
+  a: true
+- q: An S3 ACL can be applied at the bucket level or at the (what?)
+  a: object level
+- q: Cloudfront increases the number of hops for data to reach an end user (true/false)
+  a: false
+- q: Cloudfront uses data centers located across the aws infrastructure to bring deliver closer to users. What are these called?
+  a: edge locations    
+- q: What is the name of the server that holds the data to be delivered on Cloudfront?
+  a: Cloudfront Origin Server
+- q: Cloudfront Distribution tells Cloudfront which origin servers to get its data from (true/false)
+  a: true
+- q: An edge location will cache data from an origin server. It refreshes whenever it takes longer than what?
+  a: TTL
+- q: Cloudfront does not cache dynamic content, only what?
+  a: static content
 - q:  
