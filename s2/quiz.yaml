@@ -132,4 +132,14 @@
   a: TTL
 - q: Cloudfront does not cache dynamic content, only what?
   a: static content
+- q: RDS backups are DB snapshots of instance. Automated db snapshots can be upload to...
+  a: S3
+- q: In the Elastic Load Balancer, there is a master and (blank) instance.
+  a: standby
+- q: In the ELB, when the master db fails, standby gets...
+  a: promoted
+- q: Read replicas can help with heavy read requests (true/false)
+  a: true
+- q: Read replicas can be routed to with route 53 in order to help load balance in read requests (true/false)
+  a: true
 - q:  
