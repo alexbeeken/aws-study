@@ -142,4 +142,28 @@
   a: true
 - q: Read replicas can be routed to with route 53 in order to help load balance in read requests (true/false)
   a: true
+- q: DynamoDB is a service to provide what kind of db?
+  a: NoSQL
+- q: DynamoDB consists of tables, items and...
+  a: attributes
+- q: Does DynamoDB support cross-region replication? (true/false)
+  a: true 
+- q: SQL is optimized for storage. NoSQL is optimized for...
+  a: speed
+- q: SQL data is normalized. NoSQL data is...
+  a: denormalized.
+- q: NoSQL tables contain..
+  a: items
+- q: NoSQL tables must define what...
+  a: primary key
+- q: how many global secondary indexes can one define?
+  a: 5
+- q: the two types of ways of getting information from a nosql db are query and...
+  a: scan
+- q: what kind of counter in nosql is best for counters that dont need to be 100% accurate like a site counter?
+  a: atomic
+- q: what kind of nosql counter is best for critical applications?
+  a: conditional update
+- q: with dynamodb you can purchase what for read/write capacity units?
+  a: reserved capacity
 - q:  
