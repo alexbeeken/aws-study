@@ -198,3 +198,36 @@
   a: EC2
 - q: VPC security involves security groups, ACLs (or network ACLs) and Flow Logs (cloudwatch). (true/false)
   a: true
+- q: SQS stands for what?
+  a: Simple Queue Service
+- q: Simple service helps to smooth out the peak demand (true/false)
+  a: true
+- q: SQS message size can be set between 1KB to what?
+  a: 256KB 
+- q: SQS can provide CloudWatch metrics that can be used for what?
+  a: autoscaling
+- q: The SQS queue types are Standard Queue and...
+  a: FIFO
+- q: SQS of type FIFO is limited at how many transactions per second?
+  a: 300
+- q: FIFO SQS offers exactly-once processing (true/false)
+  a: true
+- q: SQS Standard Queue offers exactly-once-processing (true/false)
+  a: false
+- q: SQS Short polling sends a response back immediately whether or not it is in the queue (true/false)
+  a: true  
+- q: SQS Long polling waits until a message is available in the queue before sending a response (true/false)
+  a: true
+- q: SNS stands for what?
+  a: Simple Notification Service
+- q: SNS enables sending up to what size?
+  a: 256KB
+- q: Subscribers subscribe to a topic name and the access is determined by...
+  a: policy
+- q: What service is abbreviation for what service?
+  a: Simple Workflow Service
+- q: SWS is suitable for long running processes (true/false)
+  a: true
+- q: SWS offers hierarchical workflow processes (true/false)
+  a: true
+- q:     
