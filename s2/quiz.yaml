@@ -166,4 +166,35 @@
   a: conditional update
 - q: with dynamodb you can purchase what for read/write capacity units?
   a: reserved capacity
-- q:  
+- q: You can have a vpc in multiple regions (true/false)
+  a: false
+- q: A class A ip address begins with what number?
+  a: 10
+- q: A class B ip address begins with what number range?
+  a: 172.16-31
+- q: A class C ip address begins with what number?
+  a: 192.168
+- q: In a subnet mask the 1s represent what? (network/hosts) 
+  a: network
+- q: Amazon reserves the first 4 ip addresses and last 1 ip address of every subnet for networking purposes (true/false)
+  a: true
+- q: CIDR stands for what?
+  a: classless inter-domain routing
+- q: The larger the number in CIDR shorthand notiation, the (more/less) addresses available for hosts?
+  a: less
+- q: CIDR is a simple count of the number of (1/0) in the subnet mask. (choose 1 or 0)
+  a: 1
+- q: Subnets cannot be larger than the VPC in which they are created. (true/false)
+  a: true
+- q: If you want to change the size of a VPC you don't need to delete it and create a new one (true/false).
+  a: false    
+- q: The two main ways of connecting to a VPC is through an Internet Gateway or a...
+  a: Virtual Private Gateway
+- q: The less common, and more expensive way of connecting to a VPC is the...
+  a: Direct Connect
+- q: What allows private traffic to flow from the internet to a private vpc? (abbreviated NAT)
+  a: Network Address Translation
+- q: For NAT, you can use a fully managed amazon service or an instance of a NAT running on...
+  a: EC2
+- q: VPC security involves security groups, ACLs (or network ACLs) and Flow Logs (cloudwatch). (true/false)
+  a: true
