@@ -230,4 +230,8 @@
   a: true
 - q: SWS offers hierarchical workflow processes (true/false)
   a: true
-- q:     
+- q: API gateway is serverless (true/false)
+  a: true
+- q: The Amazon API gateway basically just triggers lambdas.
+  a: true
+- q: 
