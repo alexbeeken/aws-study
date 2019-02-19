@@ -234,4 +234,24 @@
   a: true
 - q: The Amazon API gateway basically just triggers lambdas.
   a: true
-- q: 
+- q: You should never use what type of API Gateway authroization?
+  a: AWS Signature 
+- q: AWS Elasticache is an im-memory service (true/false)
+  a: true
+- q: Elasticache increases the load on your database (true/false)
+  a: false
+- q: Elasticache has no persistence layer (true/false)
+  a: true
+- q: Which amazon service is for streaming data content?
+  a: Amazon Kinesis
+- q: Amazon Kinesis has server side encryption (true/false)
+  a: true
+- q: Kinesis streams consist of...
+  a: shards
+- q: Shards are not separate data but mini whats?
+  a: streams
+- q: Applications that read continuously from a Kinesis stream are called
+  a: consumers
+- q: Each Kinesis shard can support up to how many PUT requests per second?
+  a: 1000
+- q:  
