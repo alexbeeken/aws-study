@@ -1,0 +1,9 @@
+- q: AWS cloud 9 is an ide run from where?
+  a: browser
+- q: You dont have to specify a VPC to use cloud 9 with one (true/false)
+  a: false
+- q: Node is preinstalled on Amazon Cloud 9 (true/false)
+  a: true
+- q: AWS Cognito is used for...
+  a: authentication
+- q: 
